@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:300,400,600%7COpen+Sans"
+
+      rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css">
+    <link rel="stylesheet" href="estilos.css">
+    <title>Cupon SMARTECH</title>
+    <link rel="shortcut icon" href="favicon.png">
+  </head>
+  <body background="fondo.jpg">
+    <div class="contenedor">
+      <article>
+        <h1>RECLAMA TU CUPON SMARTECH</h1>
+        <button id="btn-abrir-popup" class="btn-abrir-popup">AQUI TU CUPÓN</button>
+        <h2><p>SMARTECH Brinda a todos sus clientes potenciales, un cupón para que
+          puedan reclamar en nuestras oficinas. </p>
+        <p> En que consiste el cupón:</p>
+        <p>1.- Un mantenimiento gratuito de pc.</p>
+        <p>2.- Limpieza de laptop.</p>
+        <p>3.- Instalación de 1 software.</p>
+        <p>4.- Instalación de 1 Juego para pc.</p>
+        <p>5.- Cambio de pasta térmica gamer. </p>
+        <p>Los cupones se sortearan aleatoriamente por sistema una vez active su
+          cupón, se le asignará un código para que pueda reclamar su premio.</p>
+        <p>* OJO: Los beneficiarios podrán reclamar su premio el mismo día que
+          lo activaron. Los beneficiarios si no reclamaron su cupón el mismo día
+          que lo activaron no servira para nada el código que se les asignaron.</p>
+		<p>Gracias por su preferencia!!!!</p>
+        <p>
+        </p>
+        <p> Para mas información contáctese a los números: <a href="tel://69529599"
+
+            target="_blank">69529599 </a>- <a href="tel://64942905" target="_blank">64942905</a>.
+        </p>
+        <p> O al Whatsapp: <a href="https://api.whatsapp.com/send?phone=59169529599"><img
+
+              srcset="https://userscontent2.emaze.com/images/d39718d5-4667-471f-afe2-469dbd1ff480/043674ce-f8cd-41d0-9080-6bf9d6b9e349.png"
+
+              height="50" width="50"></a></p></h2>
+        <p>© CUPON SMARTECH 2022 By <a href="https://f1smartech.jimdofree.com/">Marcelo Pérez Herbas<img
+              srcset="https://image.jimcdn.com/app/cms/image/transf/dimension=169x10000:format=png/path/s4966bb408be80bd1/image/i758b5d0424d5cf90/version/1609561546/image.png"
+              height="50" width="50"></a>
+        </p>
+      </article>
+      <div class="overlay" id="overlay">
+        <div class="popup" id="popup"> <a href="#" id="btn-cerrar-popup" class="btn-cerrar-popup"><i
+
+              class="fas fa-times"></i></a>
+          <h3>GENERAR CODIGO</h3>
+          <h4>y recibe un cupon de descuento por SMARTECH.</h4>
+          <div id="id_generador" style="margin:2em 0">
+            <div hidden>
+            <h4><label for="xdesde2">Generador de</label>: <input name="desde"
+
+                value="6" id="xdesde2" style="width:50px" type="text"> <label for="xhasta2">a</label>:
+              <input name="hasta" value="1000000" id="xhasta2" style="width:50px"
+
+                type="text"> <label for="xveces2">número de repeticiones</label>:
+              <input name="veces" value="1" id="xveces2" style="width:50px" type="text">
+              <label for="xrep">sin repetición</label>: <input name="rep" id="xrep"
+
+                checked="checked" type="checkbox"> <br>
+              <br>
+              <button type="button" id="g1b" onclick="gen_na1();" style="float:left;margin-right:2em">GENERAR</button></h4></div>
+            <div id="g1br" style="font-weight:bold"></div>
+          </div>
+          <script src="https://numero.wiki/s/numeros-aleatorios-generador.js"></script>
+          <form action="">
+            <div class="contenedor-inputs"> <input placeholder="Nombre" type="text">
+              <input placeholder="C.I." type="C.I."><input placeholder="N° De celular" type="N° De celular"> </div>
+            <input class="btn-submit" value="LISTO" type="submit"> </form>
+        </div>
+      </div>
+    </div>
+    <script src="popup.js"></script>
+  </body>
+</html>
